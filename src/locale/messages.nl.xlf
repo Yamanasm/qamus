@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6bec7734cb3740b324966b003c0f45f0148a70e8" datatype="html">
+        <source>search</source>
+        <target>zoek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/search/search.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
