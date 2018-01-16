@@ -2,6 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {LOCALE_ID, NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
+import {SearchModule} from './search/search.module';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import {AppComponent} from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SearchModule
   ],
   providers: [{
     provide: LOCALE_ID, useValue: 'fr'
