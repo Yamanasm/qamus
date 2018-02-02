@@ -1,4 +1,7 @@
-<form>
-  <input/>
-  <button i18n>search</button>
+<form (ngSubmit)="onSearch()" #searchForm="ngForm">
+  <input id="search" [(ngModel)]="search" name="search" required/>
+  <button i18n type="submit" [disabled]="!searchForm.form.valid">search</button>
 </form>
+<div>
+  {{result}}
+</div>
