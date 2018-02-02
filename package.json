@@ -9,9 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start:fr": "ng serve --aot --i18nFile=src/locale/messages.fr.xlf --i18nFormat=xlf --locale=fr",
-    "start:nl": "ng serve --aot --i18nFile=src/locale/messages.nl.xlf --i18nFormat=xlf --locale=nl",
-    "start:ar": "ng serve --aot --i18nFile=src/locale/messages.ar.xlf --i18nFormat=xlf --locale=ar"
+    "start:fr": "ng serve --aot --i18nFile=src/locale/messages.fr.xlf --i18nFormat=xlf --locale=fr --port=4400",
+    "start:nl": "ng serve --aot --i18nFile=src/locale/messages.nl.xlf --i18nFormat=xlf --locale=nl --port=4300",
+    "start:ar": "ng serve --aot --i18nFile=src/locale/messages.ar.xlf --i18nFormat=xlf --locale=ar --port=4500"
   },
   "private": true,
   "dependencies": {
